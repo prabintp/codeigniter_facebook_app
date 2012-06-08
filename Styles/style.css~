@@ -1,0 +1,172 @@
+/* 
+    Document   : style
+    Created on : Apr 5, 2012, 2:39:05 PM
+    Author     : exalt
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body {
+    color: #211922;
+    font-family: "helvetica neue",arial,sans-serif;
+    font-size: 10px;
+     background-color: #FAF7F7;
+   
+}
+#Header {
+    background-color: #FAF7F7;
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 2px rgba(34, 25, 25, 0.4);
+    height: 50px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 103;
+}
+.LiquidContainer {
+    margin: 0 auto;
+	padding-top:15px;
+}
+#Pinterest {
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+    top: 9px;
+}
+
+a {
+    color: #221919;
+    font-weight: bold;
+    outline: medium none;
+    text-decoration: none;
+}
+.wrapper {
+    border: medium none;
+    margin: 0 auto;
+    min-width: 933px;
+    width:auto;
+    position: relative;
+    background-color: #FFFFFF;
+   
+   padding-top: 76px;
+}
+#BoardTitle {
+    margin: 0 auto 30px;
+   
+    text-shadow: 0 1px rgba(255, 255, 255, 0.898);
+    width: 780px;
+	min-height:475px;
+}
+#BoardTitle p {
+  floar:right;
+font-size:22px;
+
+}
+#BoardTitle p a{
+color:#3B9BEF;
+padding:5px;
+font-size:18px;
+text-decoration:none;
+
+
+}
+#BoardTitle p a:hover{
+text-decoration:underline;
+}
+
+.serif {
+    font-family: palatino,"palatino linotype","book antiqua",serif;
+    color:#1C3CA0;
+}
+#BoardMeta {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+   
+    overflow: hidden;
+    padding: 10px 0 12px;
+    position: relative;
+}
+#ColumnContainer {
+    margin: 60px auto 0;
+    min-height: 700px;
+    position: relative;
+    text-align: center;
+}
+.footer{
+    padding:20px;
+    width:100%;
+    text-align: center;
+    background-color: #FAF7F7;
+    box-shadow: 0 1px #FFFFFF inset, 0 1px 2px rgba(34, 25, 25, 0.4);
+    height: 44px;
+    left: 0;
+    
+}
+.footer a{
+    font-size: 12px;
+  
+}
+.tb {
+	width: 221px;
+	background: transparent url('bg.jpg') no-repeat;
+	color : #747862;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+}
+.ta10 {
+	background-image:url(form_bg.jpg);
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	width: 230px;
+	height: 60px;
+	color:#333333;
+	padding:3px;
+	margin-right:4px;
+	margin-bottom:8px;
+	font-family:tahoma, arial, sans-serif;
+
+}
+.help-block{
+    color: #999999;
+    font-size: 12px;
+     font-weight: bold;
+}
+label{
+     color: #999999;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right:10px;
+    
+}
+#BoardUsers{
+    color: #999999;
+    font-size: 16px;
+}
+.fb9 {
+	border: 1px solid #3366FF;
+	background-color:#B3C6FF;
+        width:100px;
+}
+.fb9:hover {
+	border: 2px dotted #FF6633;
+	color:#FF6600;
+	font-weight:bold;
+}
+
+.left{
+
+float:left;
+}
